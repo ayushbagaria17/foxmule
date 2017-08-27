@@ -5,4 +5,15 @@
     <color name="colorAccent">#FF4081</color>
 
     <color name="black_overlay">#66000000</color>
+    <color name="white">#ffffff</color>
+    <color name="border_grey">#000000</color>
+    <color name="black_heading">#000000</color>
+    <color name="light_gray">#7e7e7e</color>
+    <color name="error_text">#ed3b3d</color>
+    <color name="gainsboro">#F1D5D5</color>
+    <color name="lightPink">#e7b7e8</color>
+    <color name="snow">#fbfbfb</color>
+    <color name="tomoto_orange">#f0722f</color>
+    <color name="whiteSmoke">#f5f4f4</color>
+    <color name="transparent">#80000000</color>
 </resources>

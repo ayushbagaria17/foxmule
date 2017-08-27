@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <include
+            layout="@layout/toolbar_with_border"
+            />
+    </android.support.design.widget.AppBarLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/heading"
+            android:text="@string/label_enter_invite_code"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:textColor="@color/black_heading"/>
+
+
+        <LinearLayout
+            android:id="@+id/ll_confirmation_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="@dimen/inputwidget_side_margin"
+            android:layout_marginRight="@dimen/inputwidget_side_margin"
+            android:paddingBottom="@dimen/medium_padding"
+            android:paddingTop="@dimen/medium_padding"
+            android:layout_marginTop="@dimen/large_margin"
+            android:paddingLeft="12dp"
+            android:paddingRight="@dimen/medium_padding"
+            android:background="@drawable/lgiht_gray_curved_border_bg"
+            tools:background="@drawable/error_red_curved_border_bg">
+
+
+            <EditText
+                android:id="@+id/et_invite_code"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:layout_gravity="center"
+                android:hint="Enter code here"
+                tools:text = "1234567890"
+                android:textSize="@dimen/big_text" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_error"
+            android:textColor="@color/error_text"
+            android:layout_marginTop="@dimen/medium_margin"
+            android:layout_marginLeft="@dimen/inputwidget_side_margin"
+            android:layout_marginRight="@dimen/inputwidget_side_margin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/small_text"
+            android:text="@string/error_invalid_code"
+            android:textStyle="bold"
+            android:paddingLeft="@dimen/medium_padding"
+            android:paddingRight="@dimen/medium_padding"
+            android:layout_marginBottom="@dimen/medium_margin"
+            tools:visibility="visible"
+            android:visibility="gone"
+            />
+
+
+        <Button
+            android:id="@+id/btn_next"
+            android:layout_marginTop="@dimen/large_margin"
+            android:layout_marginLeft="@dimen/inputwidget_side_margin"
+            android:layout_marginRight="@dimen/inputwidget_side_margin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_next"
+            android:textColor="@color/lightPink"
+            android:background="@drawable/light_pink_curved_border_bg"
+            android:layout_marginBottom="@dimen/large_margin"/>
+
+
+    </LinearLayout>
+    
+
+</LinearLayout>
