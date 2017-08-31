@@ -20,13 +20,14 @@
         android:layout_gravity="center"
         android:layout_marginBottom="30dp"/>
 
-    <Button
-        android:id="@+id/btn_singup_fb"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/label_signup_fb"/>
+        <com.facebook.login.widget.LoginButton
+            android:id="@+id/fb_login_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            />
 
-    <LinearLayout
+        <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/large_margin">

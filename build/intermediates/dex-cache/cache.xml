@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/9b95b5139a1906c192a69b106b1b579b3667c12d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_03df409b33a424ceab6cc0c782812a62a29f7cb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/3b94192d281b757e0c5d5e64b3112e6392503242/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_ec76fe0fa09ce53457fc97eec8c4c77588ee36e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/dde985819c52013f4835e2885742031576aa76b1/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_b2e2287234382086b13025094a947b6668ff3a54.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/eb03f081fe87d6581f86bf2c1356088ad23cc24d/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_0bc42171828a0bde39570daa9a48fdd88637503c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/io.reactivex/rxjava/1.1.6/2586312cd2b8a511e4c6236736f5a039fc0f2273/rxjava-1.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2586312cd2b8a511e4c6236736f5a039fc0f2273">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/rxjava-1.1.6_0c4aad72d30d71bec742318af2170ed1d4a4b207.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/3.3.1/19047bdb6a4fc00a44124f64ca98e88fc204e7e3/okhttp-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="19047bdb6a4fc00a44124f64ca98e88fc204e7e3">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/okhttp-3.3.1_2e4a79799e476d1b65632b211f935b720ddd1145.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.4.0/8ad21bf21784dacce5f2043afb97218cc377e835/bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.4.0_efd6580715678648b6c210f63b1a7aa1df9fe0b0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/986ca00d8bdde0a57b3474f6ee360051fd5e06d6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_db7c58682b89c7b68e5e86b842255ca134778b01.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/3.3.1/99ce730034c6f5aaed710d1e0e9df95e8714ed5f/logging-interceptor-3.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="99ce730034c6f5aaed710d1e0e9df95e8714ed5f">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/logging-interceptor-3.3.1_94435fbdd95de59fd36beabd790dd47f0042fabf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/04d244fbf845e227ca33c78a6ccd01852f4b48a2/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_59e52a95afc89b31db9059e01f37f1d769148386.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/686768666254310e7e2d268db96d57f3b468499f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="e09663005d70dcedff0bb77211b9ac52d8b69421">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_d7720d0d445ef7e6b683e98c837d3660a813428e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava/2.1.0/693eddc23e87ab13f9cf5001707ce8e7e1d1ff01/adapter-rxjava-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="693eddc23e87ab13f9cf5001707ce8e7e1d1ff01">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/adapter-rxjava-2.1.0_9da8238040e4affce635fcc514126472b754016d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/4208533b4eddf0388c8e0694a42938bdc10bbd7a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_1bd365fbc11e8b1b58abd1f78c5426b79917c84e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.3.0/73c49077166faa4c3c0059c5f583d1d7bd1475fe/core-3.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="73c49077166faa4c3c0059c5f583d1d7bd1475fe">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/core-3.3.0_83cf3b3928ebb7eba09968b42db55d9f9a801878.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/4e415a9df31776d70e59cbfde18f7be87324957e/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="807751a24cf96566fd8675517c94d8463cf364db">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_7a404253147c0f61490256333a3fc84815104687.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.1.0/2de7cd8b95b7021b1d597f049bcb422055119f2c/retrofit-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="2de7cd8b95b7021b1d597f049bcb422055119f2c">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/retrofit-2.1.0_bc6e54413c0977c43381771b11a65f247f2e421b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/b66d63c93a1d66183baed71a8c3d826e8f046f23/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="5a2386ad9bfff580b206a7fe305cdccd00798159">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_b60dd5d2d3bd4680255406cdb23390eb4c30c350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/e5e2525fe6ea2a112d5dfaca357d6f0b398e8ccf/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_da86068da552bd85bf2835c84d054ed57d4414ab.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-scalars/2.1.0/7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5/converter-scalars-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="7c0d7c8f6e52115bb82fa018d81a8d0cae35dde5">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/converter-scalars-2.1.0_ae6259ef3e01ba27fdb311fea0f9758f234f92eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/glide-3.7.0_4879f5ed95f8896df40736b0139d02d7c5e61d50.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.1_baa85c37a617f3bac671f9e595ef32ce821f51cc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/70f462e3ff34733c9c938b7462a088a25e49a950/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_6c1f4cfa9ba28368b986f4fbf786fc0cc3b83097.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/a5c3988a094aec938025a95b9fc6c719181a4b60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_c22d06f6e8c45b136a32afbed7396a2cdd5509a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/2eb27b150585f52a1127a9f297dc24c6d22ef9a4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_daa2ed10837851b7442c1c9a28e43b855bbb1748.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/587ab32f990bdbb20600ec58074eb256ef4fa87a/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_6ffa72cb163ddffef8b6c99597d504153540ac04.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.8.0/5ea7af56cc7c567ed9856d99efb30740e9b17ff/okio-1.8.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="05ea7af56cc7c567ed9856d99efb30740e9b17ff">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/okio-1.8.0_05f129585884f0f9830795640e65dc57a385235a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.4.0/d85884acf6810a3bbbecb587f239005cbc846dc4/bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.4.0_58a0be5f4cc154037e8df6d8d641a0f10ffe8ca8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/6.0.0/3a10b25b6820e19102e118711afe6a66c0bae123/butterknife-6.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="3a10b25b6820e19102e118711afe6a66c0bae123">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/butterknife-6.0.0_e7e26b2136236292db3f046f1c4475c059feddbf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/gson-2.7_21f2697b3d4ad6b3f0f4a52d02e0c5ef81aef0f4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.android/build-cache/e9cfc8511770c4b7f323d0cb705f6efd82b5c0f4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/classes_8c922375d59b7d0bdcad6c2ef1665a2f91ec2740.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/ayushbagaria/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.1.0/aa557d71ead91cbf26e0c316a0f593d168303309/converter-gson-2.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="26.0.1"
+        sha1="aa557d71ead91cbf26e0c316a0f593d168303309">
+        <dex dex="/Users/ayushbagaria/Desktop/ayush/android/foxmule/app/build/intermediates/pre-dexed/debug/converter-gson-2.1.0_f25412c6b0bb8bc099fbb876764b1872bb60a071.jar" />
+    </item>
+
+</items>

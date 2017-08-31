@@ -11,9 +11,13 @@ public interface SplashContract {
 
     interface View extends BaseView {
 
+        void startTrackingTheProfileAndAccessToken();
+
+        void moveToHomeActivty();
     }
 
     interface Presenter extends BasePresenter<SplashContract.View> {
 
+        void userIsLoggedIn();
     }
 }

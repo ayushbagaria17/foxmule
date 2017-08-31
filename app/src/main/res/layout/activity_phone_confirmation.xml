@@ -32,9 +32,10 @@
             android:textColor="@color/black_heading"/>
 
         <TextView
+            android:id="@+id/tv_code_sent_to_number"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/label_type_code"
+            android:text="@string/label_enter_code_sent_to"
             android:layout_gravity="center"
             android:textSize="@dimen/small_text"/>
 
@@ -63,7 +64,9 @@
                 android:layout_gravity="center"
                 android:hint="Enter code here"
                 tools:text = "1234567890"
-                android:textSize="@dimen/big_text" />
+                android:textSize="@dimen/big_text"
+                android:inputType="number"
+                android:maxLength="4"/>
         </LinearLayout>
 
         <TextView

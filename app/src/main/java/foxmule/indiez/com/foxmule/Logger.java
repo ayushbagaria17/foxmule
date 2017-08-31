@@ -11,7 +11,7 @@ public class Logger  {
         Log.d("Information", info);
     }
 
-    public static void logErroe (String error) {
+    public static void logError(String error) {
         Log.e("Information", error);
     }
 }

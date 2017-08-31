@@ -14,11 +14,14 @@
     <string name="error_number_exist">Phone number already exists</string>
     <string name="have_invite_code">I HAVE AN INVITE CODE</string>
     <string name="label_enter_confirmation_code">Enter Confirmation Code</string>
-    <string name="label_type_code">Type the 6 digit code we sent to +91%s</string>
+    <string name="label_enter_code_sent_to">Type the 6 digit code we sent to +91%s</string>
     <string name="label_create_username">Create Username</string>
     <string name="hint_add_username">Add a username or use our suggestion. You can change this any time.</string>
     <string name="error_invalid_username">Username isn\'t available. Try another.</string>
     <string name="label_agree_to_tnc">By signing up, you agree to our Terms and Privacy Policy.</string>
     <string name="label_enter_invite_code">Enter Invite Code</string>
     <string name="error_invalid_code">Incoorect Invite code! Please try again</string>
+
+    <string name="facebook_app_id">1802718126424778</string>
+    <string name="fb_login_protocol_scheme">fb1802718126424778</string>
 </resources>

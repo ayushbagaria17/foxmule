@@ -98,7 +98,8 @@
             android:text="@string/label_next"
             android:textColor="@color/lightPink"
             android:background="@drawable/light_pink_curved_border_bg"
-            android:layout_marginBottom="@dimen/large_margin"/>
+            android:layout_marginBottom="@dimen/large_margin"
+            android:enabled="false"/>
 
 
     </LinearLayout>

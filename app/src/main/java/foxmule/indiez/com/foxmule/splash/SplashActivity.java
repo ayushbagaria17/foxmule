@@ -15,6 +15,16 @@ import android.os.Handler;
 import android.view.MotionEvent;
 import android.view.View;
 
+import com.facebook.AccessToken;
+import com.facebook.AccessTokenTracker;
+import com.facebook.CallbackManager;
+import com.facebook.FacebookCallback;
+import com.facebook.FacebookException;
+import com.facebook.FacebookSdk;
+import com.facebook.Profile;
+import com.facebook.ProfileTracker;
+import com.facebook.login.LoginResult;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -29,6 +39,11 @@ public class SplashActivity extends BaseActivity implements SplashContract.View,
 
     private SplashPresenter presenter;
     private final int REQUEST_CODE_ASK_PERMISSIONS = 0;
+
+    private CallbackManager callbackManager;
+    private AccessTokenTracker accessTokenTracker;
+    private ProfileTracker profileTracker;
+
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -45,6 +60,48 @@ public class SplashActivity extends BaseActivity implements SplashContract.View,
     public void init() {
         initPresenter();
         initView();
+
+    }
+
+    private void initFbTrackers() {
+        FacebookSdk.sdkInitialize(getApplicationContext());
+        callbackManager = CallbackManager.Factory.create();
+        accessTokenTracker = new AccessTokenTracker() {
+            @Override
+            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+
+            }
+        };
+
+        profileTracker = new ProfileTracker() {
+            @Override
+            protected void onCurrentProfileChanged(Profile oldProfile, Profile newProfile) {
+             //   nextActivity(newProfile);
+            }
+        };
+        accessTokenTracker.startTracking();
+        profileTracker.startTracking();
+
+    }
+
+    private void initAccessTokenTracking() {
+        accessTokenTracker = new AccessTokenTracker() {
+            @Override
+            protected void onCurrentAccessTokenChanged(AccessToken oldAccessToken, AccessToken currentAccessToken) {
+
+            }
+        };
+        accessTokenTracker.startTracking();
+    }
+
+    private void initProfileTracking() {
+        profileTracker = new ProfileTracker() {
+            @Override
+            protected void onCurrentProfileChanged(Profile oldProfile, Profile newProfile) {
+                //   nextActivity(newProfile);
+            }
+        };
+        profileTracker.startTracking();
     }
 
     @Override
@@ -68,6 +125,7 @@ public class SplashActivity extends BaseActivity implements SplashContract.View,
             permissionList.add(Manifest.permission.ACCESS_NETWORK_STATE);
             PermissionUtils.askForPermissions(REQUEST_CODE_ASK_PERMISSIONS, this, permissionList);
         }
+        presenter.isLoggedIn();
 
 
     }
@@ -113,9 +171,36 @@ public class SplashActivity extends BaseActivity implements SplashContract.View,
         }
     }
 
+    @Override
+    protected void onStop() {
+        super.onStop();
+        accessTokenTracker.stopTracking();
+        profileTracker.stopTracking();
+
+    }
+
     public static Intent newIntent(Context context) {
         Intent intent = new Intent(context, SplashActivity.class);
         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
         return intent;
+    }
+
+    @Override
+    public void startTrackingTheProfileAndAccessToken() {
+       AccessToken accessToken =  AccessToken.getCurrentAccessToken();
+        if (accessToken.isExpired()) {
+            initAccessTokenTracking();
+        }
+
+        if (Profile.getCurrentProfile() == null) {
+            initProfileTracking();
+        } else {
+
+        }
+    }
+
+    @Override
+    public void moveToHomeActivty() {
+
     }
 }

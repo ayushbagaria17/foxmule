@@ -1,6 +1,8 @@
 package foxmule.indiez.com.foxmule.utils;
 
 import android.content.Context;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 
 import foxmule.indiez.com.foxmule.Constants;
 import foxmule.indiez.com.foxmule.domain.User;
@@ -26,5 +28,12 @@ public class MiscUtils {
         SharedPreferencesUtil prefs = SharedPreferencesUtil.getInstance(context);
         User user = GsonUtils.getObjectFromJson(prefs.getData(Constants.KEY.USER_JSON, null), User.class);
         return user;
+    }
+
+    public static boolean isConnectedToInternet(Context context) {
+        ConnectivityManager cm =
+                (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo netInfo = cm.getActiveNetworkInfo();
+        return netInfo != null && netInfo.isConnectedOrConnecting();
     }
 }
